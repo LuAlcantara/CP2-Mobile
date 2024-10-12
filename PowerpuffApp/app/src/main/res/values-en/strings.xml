@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PowerpuffApp</string>
+    <string name="florzinha">Blossom</string>
+    <string name="lindinha">Bubbles</string>
+    <string name="docinho">Buttercup</string>
+    <string name="ver_respostas">View Answers</string>
+    <string name="character_image">Character Image</string>
+    <string name="why_like">Why do you like this character?</string>
+    <string name="submit">Submit</string>
+</resources>

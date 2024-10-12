@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PowerpuffApp</string>
+    <string name="florzinha">Florzinha</string>
+    <string name="lindinha">Lindinha</string>
+    <string name="docinho">Docinho</string>
+    <string name="ver_respostas">Ver Respostas</string>
+    <string name="character_image">Imagem do personagem</string>
+    <string name="why_like">Por que você gosta desse personagem?</string>
+    <string name="submit">Enviar</string>
+</resources>
+
