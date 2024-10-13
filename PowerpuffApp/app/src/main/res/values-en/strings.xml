@@ -5,13 +5,14 @@
     <string name="docinho">Buttercup</string>
     <string name="ver_respostas">See Responses</string>
     <string name="character_image">Character Image</string>
+    <string name="name">Enter your name</string>
+    <string name="age">Enter your age</string>
     <string name="why_like">Why do you like this character?</string>
     <string name="submit">Submit</string>
-    <string name="florzinha_info">Blossom is the leader of the Powerpuff Girls. With red hair and a pink dress, she is determined, brave, and intelligent.</string>
-    <string name="lindinha_info">Bubbles, one of the Powerpuff Girls, is the sweetest and most sensitive of the trio. She has long hair and wears a blue dress.</string>
-    <string name="docinho_info">Buttercup, one of the Powerpuff Girls, is the toughest and most aggressive of the three sisters. With short hair and a green dress, she possesses super strength.</string>
     <string name="response_message">You like %1$s because: %2$s</string>
     <string name="response_sent">Response sent!</string>
     <string name="empty_response_warning">Please enter a response!</string>
+    <string name="docinho_description">Buttercup, one of the Powerpuff Girls, is the boldest and most rebellious of the trio. With short black hair, she wears a green dress and is known for her strength, combat skills, and determination. Despite her strong temperament, she is loyal to her sisters, Blossom and Bubbles. Together, they fight villains to protect the city of Townsville, showing the importance of friendship and courage.</string>
+    <string name="lindinha_description">Bubbles is the sweetest and most sensitive of the Powerpuff Girls. With long blonde hair, she wears a blue dress and has abilities such as super strength and the ability to fly. Bubbles is kind and caring, often being the voice of reason among her sisters. Her compassion and optimism make her an admired heroine, always ready to help others and fight evil alongside Blossom and Buttercup.</string>
+    <string name="florzinha_description">Blossom is the leader of the Powerpuff Girls, known for her intelligence and sense of responsibility. With red hair and a pink dress, she has the ability to fly and uses her strategic skills to fight villains. Blossom is determined and focused, often taking on the role of protector of Townsville. Although she may seem serious, she values her friendship with Bubbles and Buttercup, always seeking a balance between strength and kindness.</string>
 </resources>
-

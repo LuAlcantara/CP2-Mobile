@@ -19,26 +19,24 @@ class CharacterDetailActivity : AppCompatActivity() {
         val imageView = findViewById<ImageView>(R.id.image_character)
         val textView = findViewById<TextView>(R.id.text_character_info)
         val editTextReason = findViewById<EditText>(R.id.edit_text_reason)
-        val editTextAge = findViewById<EditText>(R.id.edit_text_age) // Nova linha para pegar a idade
+        val editTextAge = findViewById<EditText>(R.id.edit_text_age)
         val buttonSubmit = findViewById<Button>(R.id.button_submit)
 
-        // Configuração do personagem
         when (characterName) {
             "Florzinha" -> {
                 imageView.setImageResource(R.drawable.flor)
-                textView.text = getString(R.string.florzinha_info)
+                textView.text = getString(R.string.florzinha_description)
             }
             "Lindinha" -> {
                 imageView.setImageResource(R.drawable.linda)
-                textView.text = getString(R.string.lindinha_info)
+                textView.text = getString(R.string.lindinha_description)
             }
             "Docinho" -> {
                 imageView.setImageResource(R.drawable.docinho)
-                textView.text = getString(R.string.docinho_info)
+                textView.text = getString(R.string.docinho_description)
             }
         }
 
-        // Botão para enviar a resposta
         buttonSubmit.setOnClickListener {
             val reason = editTextReason.text.toString()
             val age = editTextAge.text.toString() // Captura a idade do EditText

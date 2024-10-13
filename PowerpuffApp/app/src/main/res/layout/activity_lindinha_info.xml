@@ -16,36 +16,36 @@
     <TextView
         android:layout_width="366dp"
         android:layout_height="wrap_content"
-        android:text="@string/lindinha_a_menina_superpoderosa_mais_doce_e_sens_vel_do_trio_com_cabelos_longos_e_loiros_ela_usa_um_vestido_azul_e_possui_habilidades_como_a_super_for_a_e_a_capacidade_de_voar_lindinha_gentil_e_carinhosa_muitas_vezes_sendo_a_voz_da_raz_o_entre_as_irm_s_sua_compaix_o_e_otimismo_a_tornam_uma_hero_na_admirada_sempre_pronta_para_ajudar_os_outros_e_lutar_contra_o_mal_ao_lado_de_florzinha_e_docinho" />
+        android:text="@string/lindinha_description" />
 
-    <!-- Campo para o Nome -->
+    <!-- Campo o Nome -->
     <EditText
         android:id="@+id/editTextName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Digite seu nome"
+        android:hint="@string/name"
         android:layout_marginTop="16dp" />
 
-    <!-- Campo para a Idade -->
+    <!-- Campo Idade -->
     <EditText
         android:id="@+id/editTextAge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Digite sua idade"
+        android:hint="@string/age"
         android:inputType="number" />
 
-    <!-- Campo para a Razão -->
+    <!-- Campo Por que -->
     <EditText
         android:id="@+id/editTextReason"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Por que você gosta da Lindinha?" />
+        android:hint="@string/why_like" />
 
-    <!-- Botão para Enviar -->
+    <!-- Botão -->
     <Button
         android:id="@+id/buttonSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enviar"
+        android:text="@string/submit"
         android:layout_marginTop="16dp" />
 </LinearLayout>

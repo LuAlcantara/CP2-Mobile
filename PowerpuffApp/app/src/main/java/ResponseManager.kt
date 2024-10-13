@@ -1,4 +1,4 @@
-package com.example.powerpuffapp // Certifique-se de que o pacote está correto
+package com.example.powerpuffapp
 
 object ResponseManager {
     val responses = mutableListOf<String>()
