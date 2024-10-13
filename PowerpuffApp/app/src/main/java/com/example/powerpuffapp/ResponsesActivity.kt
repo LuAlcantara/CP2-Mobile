@@ -4,7 +4,6 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.example.powerpuffapp.ResponseManager
 
 class ResponsesActivity : AppCompatActivity() {
 
@@ -19,7 +18,7 @@ class ResponsesActivity : AppCompatActivity() {
         textResponses.text = ResponseManager.getAllResponses()
 
         buttonBack.setOnClickListener {
-            finish() // Volta para a tela anterior
+            finish()
         }
     }
 }

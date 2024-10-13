@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="262dp"
+        android:layout_height="257dp"
+        app:srcCompat="@drawable/docinho" />
+
+    <TextView
+        android:layout_width="366dp"
+        android:layout_height="134dp"
+        android:text="@string/a_docinho_uma_das_meninas_superpoderosas_a_mais_ousada_e_rebelde_do_trio_com_cabelo_curto_e_preto_ela_veste_um_vestido_verde_e_conhecida_por_sua_for_a_habilidades_de_combate_e_determina_o_apesar_de_seu_temperamento_forte_leal_s_suas_irm_s_lindinha_e_florzinha_juntas_elas_combatem_vil_es_para_proteger_a_cidade_de_townsville_mostrando_a_import_ncia_da_amizade_e_da_coragem" />
+
+</LinearLayout>

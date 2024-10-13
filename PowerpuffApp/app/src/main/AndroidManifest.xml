@@ -12,12 +12,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PowerpuffApp"
         tools:targetApi="31">
+
+        <!-- Activity para ver as respostas -->
         <activity
             android:name=".ResponsesActivity"
             android:exported="false" />
+
+        <!-- Activity para detalhes dos personagens -->
         <activity
             android:name=".CharacterDetailActivity"
             android:exported="false" />
+
+        <!-- Nova Activity para informações da Florzinha -->
+        <activity
+            android:name=".FlorzinhaInfoActivity"
+            android:exported="false" />
+
+        <!-- Nova Activity para informações da Lindinha -->
+        <activity
+            android:name=".LindinhaInfoActivity"
+            android:exported="false" />
+
+        <!-- Nova Activity para informações da Docinho -->
+        <activity
+            android:name=".DocinhoInfoActivity"
+            android:exported="false" />
+
+        <!-- Activity principal -->
         <activity
             android:name=".MainActivity"
             android:exported="true"

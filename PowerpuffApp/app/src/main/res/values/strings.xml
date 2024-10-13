@@ -3,9 +3,19 @@
     <string name="florzinha">Florzinha</string>
     <string name="lindinha">Lindinha</string>
     <string name="docinho">Docinho</string>
-    <string name="ver_respostas">Ver Respostas</string>
+    <string name="ver_respostas">Ver Respostas Formulário</string>
     <string name="character_image">Imagem do personagem</string>
     <string name="why_like">Por que você gosta desse personagem?</string>
     <string name="submit">Enviar</string>
+    <string name="florzinha_info">Florzinha é a líder das Meninas Superpoderosas. Com cabelo vermelho e um vestido rosa, ela é determinada, corajosa e inteligente.</string>
+    <string name="lindinha_info">Lindinha, uma das Meninas Superpoderosas, é a mais doce e sensível do trio. Ela tem cabelo longo e usa um vestido azul.</string>
+    <string name="docinho_info">Docinho, uma das Meninas Superpoderosas, é a mais destemida e agressiva das três irmãs. Com cabelo curto e vestido verde, ela possui superforça.</string>
+    <string name="response_message">Você gosta da %1$s porque: %2$s</string>
+    <string name="response_sent">Resposta enviada!</string>
+    <string name="empty_response_warning">Por favor, insira uma resposta!</string>
+    <string name="a_docinho_uma_das_meninas_superpoderosas_a_mais_ousada_e_rebelde_do_trio_com_cabelo_curto_e_preto_ela_veste_um_vestido_verde_e_conhecida_por_sua_for_a_habilidades_de_combate_e_determina_o_apesar_de_seu_temperamento_forte_leal_s_suas_irm_s_lindinha_e_florzinha_juntas_elas_combatem_vil_es_para_proteger_a_cidade_de_townsville_mostrando_a_import_ncia_da_amizade_e_da_coragem">A Docinho, uma das Meninas Superpoderosas, é a mais ousada e rebelde do trio. Com cabelo curto e preto, ela veste um vestido verde e é conhecida por sua força, habilidades de combate e determinação. Apesar de seu temperamento forte, é leal às suas irmãs, Lindinha e Florzinha. Juntas, elas combatem vilões para proteger a cidade de Townsville, mostrando a importância da amizade e da coragem.</string>
+    <string name="lindinha_a_menina_superpoderosa_mais_doce_e_sens_vel_do_trio_com_cabelos_longos_e_loiros_ela_usa_um_vestido_azul_e_possui_habilidades_como_a_super_for_a_e_a_capacidade_de_voar_lindinha_gentil_e_carinhosa_muitas_vezes_sendo_a_voz_da_raz_o_entre_as_irm_s_sua_compaix_o_e_otimismo_a_tornam_uma_hero_na_admirada_sempre_pronta_para_ajudar_os_outros_e_lutar_contra_o_mal_ao_lado_de_florzinha_e_docinho">Lindinha é a Menina Superpoderosa mais doce e sensível do trio. Com cabelos longos e loiros, ela usa um vestido azul e possui habilidades como a super força e a capacidade de voar. Lindinha é gentil e carinhosa, muitas vezes sendo a voz da razão entre as irmãs. Sua compaixão e otimismo a tornam uma heroína admirada, sempre pronta para ajudar os outros e lutar contra o mal ao lado de Florzinha e Docinho.</string>
+    <string name="a_florzinha_a_l_der_das_meninas_superpoderosas_conhecida_por_sua_intelig_ncia_e_senso_de_responsabilidade_com_cabelo_vermelho_e_um_vestido_rosa_ela_tem_a_capacidade_de_voar_e_utiliza_suas_habilidades_de_estrat_gia_para_combater_vil_es_florzinha_determinada_e_focada_muitas_vezes_assumindo_o_papel_de_protetora_de_townsville_embora_possa_parecer_s_ria_ela_valoriza_muito_a_amizade_com_lindinha_e_docinho_sempre_buscando_o_equil_brio_entre_for_a_e_bondade">A Florzinha é a líder das Meninas Superpoderosas, conhecida por sua inteligência e senso de responsabilidade. Com cabelo vermelho e um vestido rosa, ela tem a capacidade de voar e utiliza suas habilidades de estratégia para combater vilões. Florzinha é determinada e focada, muitas vezes assumindo o papel de protetora de Townsville. Embora possa parecer séria, ela valoriza muito a amizade com Lindinha e Docinho, sempre buscando o equilíbrio entre força e bondade.</string>
 </resources>
+
 

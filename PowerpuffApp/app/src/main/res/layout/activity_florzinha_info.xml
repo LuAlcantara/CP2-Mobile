@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="277dp"
+        android:layout_height="279dp"
+        app:srcCompat="@drawable/flor" />
+
+    <TextView
+        android:layout_width="366dp"
+        android:layout_height="134dp"
+        android:text="@string/a_florzinha_a_l_der_das_meninas_superpoderosas_conhecida_por_sua_intelig_ncia_e_senso_de_responsabilidade_com_cabelo_vermelho_e_um_vestido_rosa_ela_tem_a_capacidade_de_voar_e_utiliza_suas_habilidades_de_estrat_gia_para_combater_vil_es_florzinha_determinada_e_focada_muitas_vezes_assumindo_o_papel_de_protetora_de_townsville_embora_possa_parecer_s_ria_ela_valoriza_muito_a_amizade_com_lindinha_e_docinho_sempre_buscando_o_equil_brio_entre_for_a_e_bondade" />
+</LinearLayout>

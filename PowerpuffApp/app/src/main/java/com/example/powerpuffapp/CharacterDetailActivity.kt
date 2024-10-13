@@ -18,43 +18,42 @@ class CharacterDetailActivity : AppCompatActivity() {
 
         val imageView = findViewById<ImageView>(R.id.image_character)
         val textView = findViewById<TextView>(R.id.text_character_info)
-        val editText = findViewById<EditText>(R.id.edit_text_reason)
+        val editTextReason = findViewById<EditText>(R.id.edit_text_reason)
+        val editTextAge = findViewById<EditText>(R.id.edit_text_age) // Nova linha para pegar a idade
         val buttonSubmit = findViewById<Button>(R.id.button_submit)
 
+        // Configuração do personagem
         when (characterName) {
             "Florzinha" -> {
                 imageView.setImageResource(R.drawable.flor)
-                textView.text = "Florzinha é a líder das Meninas Superpoderosas. " +
-                        "\nCom cabelo vermelho e um vestido rosa, ela é determinada, corajosa e inteligente. " +
-                        "\nFlorzinha possui superforça, voo e habilidades de combate. " +
-                        "\nSua personalidade forte e senso de justiça a tornam uma defensora incansável da cidade, " +
-                        "sempre pronta para enfrentar qualquer desafio ao lado de suas irmãs."
+                textView.text = getString(R.string.florzinha_info)
             }
             "Lindinha" -> {
                 imageView.setImageResource(R.drawable.linda)
-                textView.text = "Lindinha, uma das Meninas Superpoderosas, é a mais doce e sensível do trio. " +
-                        "\nEla tem cabelo longo e usa um vestido azul. " +
-                        "\nLindinha é gentil, otimista e possui habilidades como voo e superforça." +
-                        "\nSua personalidade suave contrasta com a bravura de suas irmãs, e ela é frequentemente a voz da razão no grupo."
+                textView.text = getString(R.string.lindinha_info)
             }
             "Docinho" -> {
                 imageView.setImageResource(R.drawable.docinho)
-                textView.text = "Docinho, uma das Meninas Superpoderosas, é a mais destemida e agressiva das três irmãs. " +
-                        "\nCom cabelo curto e vestido verde, ela possui superforça, velocidade e a capacidade de voar." +
-                        "\nSua personalidade forte a leva a enfrentar vilões com coragem, sempre em união com Florzinha e Lindinha."
+                textView.text = getString(R.string.docinho_info)
             }
         }
 
-        // Configurar o botão para enviar a resposta
+        // Botão para enviar a resposta
         buttonSubmit.setOnClickListener {
-            val reason = editText.text.toString()
-            if (reason.isNotBlank()) {
-                ResponseManager.addResponse("Você gosta da $characterName porque: $reason")
-                Toast.makeText(this, "Resposta enviada!", Toast.LENGTH_SHORT).show()
+            val reason = editTextReason.text.toString()
+            val age = editTextAge.text.toString() // Captura a idade do EditText
+            if (reason.isNotBlank() && age.isNotBlank()) { // Verifica se ambos os campos estão preenchidos
+                ResponseManager.addResponse(
+                    getString(R.string.response_message, characterName, reason),
+                    age, // Passa a idade correta
+                    reason
+                )
+                Toast.makeText(this, R.string.response_sent, Toast.LENGTH_SHORT).show()
                 finish()
             } else {
-                Toast.makeText(this, "Por favor, insira uma resposta!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, R.string.empty_response_warning, Toast.LENGTH_SHORT).show()
             }
         }
     }
 }
+

@@ -1,29 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B7E0F8"
-    android:gravity="center"
-    android:orientation="vertical">
+    android:background="#B7E0F8">
 
-    <ImageView
-        android:id="@+id/image_flora"
-        android:layout_width="165dp"
-        android:layout_height="189dp"
-        android:contentDescription="@string/florzinha"
-        android:src="@drawable/flor" />
+    <!-- FrameLayout para conter o fragmento -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Imagem da Lindinha (canto inferior esquerdo) -->
+
+    <!-- Imagem da Florzinha (centro) -->
+
+    <!-- Imagem da Docinho (canto superior direito) -->
 
     <ImageView
         android:id="@+id/image_linda"
         android:layout_width="165dp"
         android:layout_height="169dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="546dp"
+        android:layout_marginEnd="227dp"
+        android:layout_marginBottom="16dp"
         android:contentDescription="@string/lindinha"
         android:src="@drawable/linda" />
+
+    <!-- Botão para ver respostas -->
+
+    <ImageView
+        android:id="@+id/image_flora"
+        android:layout_width="165dp"
+        android:layout_height="189dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="321dp"
+        android:contentDescription="@string/florzinha"
+        android:src="@drawable/flor" />
 
     <ImageView
         android:id="@+id/image_docinho"
         android:layout_width="166dp"
         android:layout_height="137dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="227dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="573dp"
         android:contentDescription="@string/docinho"
         android:src="@drawable/docinho" />
 
@@ -31,6 +70,8 @@
         android:id="@+id/button_respostas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/image_flora"
+        android:layout_marginTop="210dp"
         android:text="@string/ver_respostas" />
 
-</LinearLayout>
+</RelativeLayout>
