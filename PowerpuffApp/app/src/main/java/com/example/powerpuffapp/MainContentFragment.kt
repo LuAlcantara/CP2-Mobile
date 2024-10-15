@@ -12,7 +12,6 @@ class MainContentFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflar o layout para este fragmento
         return inflater.inflate(R.layout.fragment_main_content, container, false)
     }
 }

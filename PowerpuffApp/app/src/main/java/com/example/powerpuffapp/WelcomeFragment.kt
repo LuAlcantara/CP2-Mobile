@@ -15,7 +15,6 @@ class WelcomeFragment : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_welcome, container, false)
 
-        // Configura o botão
         val nextButton: Button = view.findViewById(R.id.next_button)
         nextButton.setOnClickListener {
             (activity as MainActivity).showMainContent()
