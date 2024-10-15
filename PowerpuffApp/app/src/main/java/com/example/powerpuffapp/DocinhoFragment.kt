@@ -31,7 +31,7 @@ class DocinhoFragment : Fragment() {
             intent.putExtra("NAME", name)
             intent.putExtra("AGE", age)
             intent.putExtra("REASON", reason)
-            intent.putExtra("CHARACTER", "Florzinha")
+            intent.putExtra("CHARACTER", "Docinho")
 
             startActivity(intent)
         }

@@ -9,11 +9,10 @@
     android:background="@color/white">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/image"
         android:layout_width="249dp"
         android:layout_height="218dp"
-        app:srcCompat="@drawable/linda"
-        android:background="@color/white"/>
+        app:srcCompat="@drawable/linda" />
 
     <TextView
         android:layout_width="366dp"
@@ -44,8 +43,7 @@
         android:hint="@string/why_like" />
 
     <!-- Botão -->
-    <Button
-        android:id="@+id/buttonSubmit"
+    <Button android:id="@+id/buttonSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/submit"

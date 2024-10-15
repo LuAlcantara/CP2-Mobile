@@ -18,24 +18,19 @@
             android:name=".ResponsesActivity"
             android:exported="false" />
 
-        <!-- Activity para detalhes dos personagens -->
-        <activity
-            android:name=".CharacterDetailActivity"
-            android:exported="false" />
-
         <!-- Nova Activity para informações da Florzinha -->
         <activity
-            android:name=".FlorzinhaInfoActivity"
+            android:name=".FlorzinhaFragment"
             android:exported="false" />
 
         <!-- Nova Activity para informações da Lindinha -->
         <activity
-            android:name=".LindinhaInfoActivity"
+            android:name=".LindinhaFragment"
             android:exported="false" />
 
         <!-- Nova Activity para informações da Docinho -->
         <activity
-            android:name=".DocinhoInfoActivity"
+            android:name=".DocinhoFragment"
             android:exported="false" />
 
         <!-- Activity principal -->

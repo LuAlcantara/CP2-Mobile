@@ -9,46 +9,42 @@
     android:background="@color/white">
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="249dp"
-        android:layout_height="218dp"
-        app:srcCompat="@drawable/flor"
-        android:background="@color/white"/>
+    android:id="@+id/imageFlorzinha"
+    android:layout_width="249dp"
+    android:layout_height="218dp"
+    app:srcCompat="@drawable/flor" />
 
     <TextView
-        android:layout_width="366dp"
-        android:layout_height="wrap_content"
-        android:text="@string/florzinha_description" />
+    android:layout_width="366dp"
+    android:layout_height="wrap_content"
+    android:text="@string/florzinha_description" />
 
     <!-- Campo Nome -->
     <EditText
-        android:id="@+id/editTextName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/name"
-        android:layout_marginTop="16dp"/>
+    android:id="@+id/editTextName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/name"
+    android:layout_marginTop="16dp"/>
 
     <!-- Campo Idade -->
-    <EditText
-        android:id="@+id/editTextAge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/age"
-        android:inputType="number" />
+    <EditText android:id="@+id/editTextAge"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/age"
+    android:inputType="number" />
 
     <!-- Campo Por que -->
-    <EditText
-        android:id="@+id/editTextReason"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/why_like" />
+    <EditText android:id="@+id/editTextReason"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/why_like" />
 
     <!-- Botão -->
-    <Button
-        android:id="@+id/buttonSubmit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/submit"
-        android:layout_marginTop="16dp" />
+    <Button android:id="@+id/buttonSubmit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/submit"
+    android:layout_marginTop="16dp" />
 
 </LinearLayout>
