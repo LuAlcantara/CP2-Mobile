@@ -1,12 +1,11 @@
 package com.example.powerpuffapp
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.EditText
 import android.widget.ImageView
+import androidx.compose.ui.graphics.Color
 import androidx.fragment.app.Fragment
 
 class MainContentFragment : Fragment() {
@@ -15,27 +14,32 @@ class MainContentFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.activity_main, container, false)
+        val view = inflater.inflate(R.layout.fragment_main_content, container, false)
 
-        val imageLinda = view.findViewById<ImageView>(R.id.image_linda)
-        val imageFlora = view.findViewById<ImageView>(R.id.image_flora)
-        val imageDocinho = view.findViewById<ImageView>(R.id.image_docinho)
+        val floraImage = view.findViewById<ImageView>(R.id.image_flora)
+        val lindaImage = view.findViewById<ImageView>(R.id.image_linda)
+        val docinhoImage = view.findViewById<ImageView>(R.id.image_docinho)
 
-        imageLinda.setOnClickListener {
-            val intent = Intent(activity, LindinhaInfoActivity::class.java)
-            startActivity(intent)
+        floraImage.setOnClickListener {
+            replaceFragment(FlorzinhaFragment())
         }
 
-        imageFlora.setOnClickListener {
-            val intent = Intent(activity, FlorzinhaInfoActivity::class.java)
-            startActivity(intent)
+        lindaImage.setOnClickListener {
+            replaceFragment(LindinhaFragment())
         }
 
-        imageDocinho.setOnClickListener {
-            val intent = Intent(activity, DocinhoInfoActivity::class.java)
-            startActivity(intent)
+        docinhoImage.setOnClickListener {
+            replaceFragment(DocinhoFragment())
         }
 
         return view
+    }
+
+    private fun replaceFragment(fragment: Fragment) {
+        parentFragmentManager.beginTransaction()
+            .replace(R.id.fragment_container, fragment)
+            .addToBackStack(null)
+            .commit()
+
     }
 }

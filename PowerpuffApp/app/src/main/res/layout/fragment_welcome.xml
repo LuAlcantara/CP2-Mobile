@@ -10,7 +10,7 @@
         android:id="@+id/welcome_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bem-vindo ao meu aplicativo!"
+        android:text="@string/saudacao"
         android:textSize="24sp"
         android:textColor="#000000"
         android:layout_marginBottom="16dp" />
@@ -19,5 +19,5 @@
         android:id="@+id/next_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Continuar" />
+        android:text="@string/continuar" />
 </LinearLayout>

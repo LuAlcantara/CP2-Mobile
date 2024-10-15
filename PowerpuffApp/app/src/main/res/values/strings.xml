@@ -15,5 +15,7 @@
     <string name="docinho_description">A Docinho, uma das Meninas Superpoderosas, é a mais ousada e rebelde do trio. Com cabelo curto e preto, ela veste um vestido verde e é conhecida por sua força, habilidades de combate e determinação. Apesar de seu temperamento forte, é leal às suas irmãs, Lindinha e Florzinha. Juntas, elas combatem vilões para proteger a cidade de Townsville, mostrando a importância da amizade e da coragem.</string>
     <string name="lindinha_description">Lindinha é a Menina Superpoderosa mais doce e sensível do trio. Com cabelos longos e loiros, ela usa um vestido azul e possui habilidades como a super força e a capacidade de voar. Lindinha é gentil e carinhosa, muitas vezes sendo a voz da razão entre as irmãs. Sua compaixão e otimismo a tornam uma heroína admirada, sempre pronta para ajudar os outros e lutar contra o mal ao lado de Florzinha e Docinho.</string>
     <string name="florzinha_description">A Florzinha é a líder das Meninas Superpoderosas, conhecida por sua inteligência e senso de responsabilidade. Com cabelo vermelho e um vestido rosa, ela tem a capacidade de voar e utiliza suas habilidades de estratégia para combater vilões. Florzinha é determinada e focada, muitas vezes assumindo o papel de protetora de Townsville. Embora possa parecer séria, ela valoriza muito a amizade com Lindinha e Docinho, sempre buscando o equilíbrio entre força e bondade.</string>
-    <string name="toque_em_uma_personagem">Toque em uma Personagem</string>
+    <string name="toque_personagem">Toque em uma Personagem</string>
+    <string name="saudacao">Bem vindo ao nosso aplicativo</string>
+    <string name="continuar">Continuar</string>
 </resources>
